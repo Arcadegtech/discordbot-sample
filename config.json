@@ -1,0 +1,7 @@
+{
+	"clientId": "bot-client-id",
+	"guildId": "your-server-id",
+	"consoleid" : "channel-id",
+	"prefix": ".",
+    "token": "bot-token"
+}
