@@ -4,7 +4,7 @@ module.exports = {
 		.setName('test')
 		.setDescription('Test Command!'),
 	async execute(interaction) {
-		await interaction.channel.send(`*Hello, <@${interaction.user.id}>* \n**Bot Online Since :** \`${interaction.client.readyAt}\` \n**Bot Ping to Discord :** \`${Math.round(interaction.client.ws.ping)}ms\`  \nGuilds : ${interaction.client.guilds.cache.size} \nMessage will be removed In 20 Seconds `);
+		await interaction.channel.send(`*Hello, <@${interaction.user.id}>* \n**Bot Online Since :** \`${interaction.client.readyAt}\` \n**Bot Ping to Discord :** \`${Math.round(interaction.client.ws.ping)}ms\`  \nGuilds : ${interaction.client.guilds.cache.size} `);
 		return;
 	},
 };
